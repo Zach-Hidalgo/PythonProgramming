@@ -1,0 +1,15 @@
+#Programmer : Zach Hidalgo
+#Program : Arithmetic operations
+#First changed : 08/29/2022 08:32:00 CST
+#Last changed : 08/29/2022 08:32:00 CST
+#Version : Python 3.10.2
+
+print("Arithmetic Operations")
+firstInput = 5 
+secondInput = 10
+
+print("sum of given numbers is",firstInput+secondInput)
+print("difference of given number is",firstInput-secondInput)
+print("product of given number is",firstInput*secondInput)
+print("quotient of given number is",firstInput/secondInput)
+print("remainder of given number is",firstInput%secondInput)
