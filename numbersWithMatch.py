@@ -50,7 +50,7 @@ match choice:
                     sum = sum + i
             if sum == n:
                 print(n,end=" ")
-                sum = 0
+            sum = 0
 
     case 5:
         print("Palindrome Numbers\n")
