@@ -27,14 +27,14 @@ elif choice == 2:
 
 elif choice == 3:
       print("Printing Prime Numbers from the First 100 Natural Numbers")
-      counter = 0 #initializing counter variable to 0
-      n = 100
-      for n in range(1, 101): #checking number of divisors for a number
-            for i in range(2, int(n/2+1)): #iterating for numbers between 2 and n/2
-                  if n%i == 0: #check for remainder is 0
-                        counter = counter+1 #increase the counter if you find a divisor
-            if counter == 0: #decision to see if counter is 0 i.e. no divisors
-                  print(n,end=" ") #printing the number is prime
+      counter = 0                             #initializing counter variable to 0
+      n = 100                                 #stating that n is equal to 100
+      for n in range(1, 101):                 #checking number of divisors for a number
+            for i in range(2, int(n/2+1)):    #iterating for numbers between 2 and n/2
+                  if n%i == 0:                #check for remainder is 0
+                        counter = counter+1   #increase the counter if you find a divisor
+            if counter == 0:                  #decision to see if counter is 0 i.e. no divisors
+                  print(n,end=" ")            #printing the number is prime
             counter = 0
 
 elif choice == 4:
@@ -56,10 +56,10 @@ elif choice == 5:
     number = int(input("Please Enter your Number:\t"))
     reverse = 0
     originalNumber = number
-    while number>0:
-        remainder = int(number%10)
-        reverse = int(reverse*10+remainder)
-        number = int(number/10)
+    while number > 0:
+        remainder = int(number % 10)
+        reverse = int(reverse * 10 + remainder)
+        number = int(number / 10)
     if originalNumber == reverse:
         print(originalNumber, "Is a Palindrome Number")
     else:
